@@ -1,0 +1,45 @@
+@charset "ISO-8859-1";
+body,html{width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url('headlap.jpg') no-repeat center center fixed;/*  stretches image for full background */
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+h1{font-size:3rem;
+color:#e2dbdb;
+}
+hr{
+	border-color:#f05f44;
+	border-width:3px;
+	max-width:65px;
+	
+}
+
+.buffer{
+	height:8rem;
+}
+	
+.btn{
+	font-weight:700;
+	border-radius:300px;
+	text-transform:uppercase;
+	margin:auto;
+}
+
+.btn-xl{
+	padding:1rem 2rem;
+	margin:5px;
+
+}
+.btn-primary{
+	background-color:#f05f44;
+	border-color:#f05f44;
+	
+}
+.btn-primary:hover{
+	border-width:4px;
+	background-color:#ee4b08;
+	border-color:#ee4b08;
+}
+
